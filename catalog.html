@@ -29,10 +29,44 @@
           </ul>
 		</nav>
 		<!--Блок авторизации-->
-		        <div class="user-block">
+		<div class="user-block">
           <a class="login" href="#">Вход</a>
         </div>
 	  </div>
 	</header>
+	
+	<!--Главный блок страницы-->
+	<main class="container">
+	  <h1>Средства для ухода</h1>
+	  <!--Хлебные крошки-->
+	  <div class="breadcrumbs">
+	    <b>Главная</b>
+		<b>Магазин</b>
+		<b class="active-item">Средства для ухода</b>
+	  </div>
+	  <!--Левая колонка-->
+	  <div class="catalog-content-left">
+	    <section class="firms">
+		  <h2>Производители</h2>
+		  <form class="firms-form">
+		    <input type="checkbox" name="firm-item" value="" checked>Baxter of California<br>
+			<input type="checkbox" name="firm-item" value="">Mr Natty<br>
+			<input type="checkbox" name="firm-item" value="">Suavecito<br>
+			<input type="checkbox" name="firm-item" value="">Malin-Goetz<br>
+			<input type="checkbox" name="firm-item" value="">Murray's<br>
+			<input type="checkbox" name="firm-item" value="">American crew<br>
+		  </form>
+		</section>
+		<section class="group-products">
+		  <h2>Группы товаров</h2>
+		  <form class="group-products-form">
+		    <input type="radio" name="group-product-item" value="">Бритвенные принадлежности<br>
+			<input type="radio" name="group-product-item" value="">Средства для ухода<br>
+			<input type="radio" name="group-product-item" value="">Аксессуары<br>
+			<button class="btn" type="submit">Показать</button>
+		  </form>
+		</section>
+	  </div>
+	</main>
   </body>         
 </html>
